@@ -2,6 +2,7 @@ import axios from "axios";
 import { Nav } from '../Partials/nav'
 import React, { useEffect, useState } from 'react';
 import { FrontPagestyle } from "../Style/frontpage.style";
+import { Footer } from "../Partials/footer";
 
 
 export const Frontpage = () => {
@@ -42,6 +43,7 @@ export const Frontpage = () => {
                 
                 })}
             </div> 
+          <Footer />
     </div>
   </FrontPagestyle>
   )

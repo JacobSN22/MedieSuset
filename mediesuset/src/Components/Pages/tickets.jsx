@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Nav } from '../Partials/nav'
+import { Footer } from '../Partials/footer';
 
 export const Tickets = () => {
 
@@ -11,6 +12,7 @@ export const Tickets = () => {
     <div>
       <Nav />
       <h1>Billetter</h1>
+      <Footer />
     </div>
   )
 }
